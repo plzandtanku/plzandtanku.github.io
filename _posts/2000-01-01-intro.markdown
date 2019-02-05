@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2016-05-14 20:35:49 -0400
+categories: jekyll update
+---
+
+This is a blog generated via jekyll, but really it's a sandbox of experimental code. May contain some "art". May contain puzzle(s).
+
+Goal: Find the cookie. It looks like this :cookie:
+
+Hint: This page doesn't count. There's another cookie somewhere...
+
