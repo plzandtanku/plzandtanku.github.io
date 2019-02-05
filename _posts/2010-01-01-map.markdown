@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "View Map"
+date:   2016-05-14 20:35:49 -0400
+categories: jekyll update
+---
+<style>
+div, .yelp:hover {
+	color: white
+}
+</style>
+<table id="path">
+
+</table>
+<script>
+	var table = document.getElementById("path");
+	for (var i=0;i < 100;i++){
+		var row = table.insertRow(0);
+		for (var j=0;j<100;j++){
+			var col = row.insertCell(0);
+			col.innerHTML = "<div class=yelp id="+i+","+j+">hello</div>";
+		}
+	}
+</script>
+
+<p>
+what </p><p>a</p> <p>weird section</p>
