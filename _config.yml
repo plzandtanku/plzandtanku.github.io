@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: enigma
+title: subtext
 email: plzdont@spamme.com
 description: > # this means to ignore newlines until "baseurl:"
   If you're lost then you're on the right track

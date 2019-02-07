@@ -12,6 +12,6 @@ categories: jekyll update
 <script>
 makeGrid("board");
 </script>
-<button onclick="spawn();">hi</button>
+<button onclick="spawnButton();">hi</button>
 <button>no</button>
 
