@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome!"
-date:   2016-05-14 20:35:49 -0400
+date:   2001-01-01 20:35:49 -0400
 categories: jekyll update
 ---
 
@@ -10,4 +10,8 @@ This is a blog generated via jekyll, but really it's a sandbox of experimental c
 Goal: Find the cookie. It looks like this :cookie:
 
 Hint: This page doesn't count. There's another cookie somewhere...
+<br/>
+<a href="/">Back</a>
+<br/>
+[View Map]({% post_url 2010-01-01-map %})
 
