@@ -1,6 +1,21 @@
 let alphabet = "abcdefghijklmnopqrstuvwxyz";
 let alArr = alphabet.split('');
 
+let req = new XMLHttpRequest(); 
+let bypass = 'https://cors-anywhere.herokuapp.com';
+// garbage values. if you wanna use this ur gonna need to change this ;p
+let appid = '76dbac2d';
+let app_key = 'ddcff1136658ed357f8a9918f0fc43b74';
+req.open('GET', bypass+'/https://od-api.oxforddictionaries.com:443/api/v1/entries/en/ace?app_id='+appid+"&app_key="+app_key, true);
+req.setRequestHeader("app_id", appid);
+req.setRequestHeader("app_key", app_key);
+
+req.onload = function () {
+	let data = JSON.parse(this.response);
+	console.log(data);
+}
+req.send();
+
 function makeGrid(id){
 	var table = document.getElementById(id);
 	for (var i=0;i < 10;i++){
